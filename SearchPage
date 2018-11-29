@@ -1,0 +1,22 @@
+'use strict'
+import React from 'react';
+import { StyleSheet, Text, View, NavigatorIOS } from 'react-native';
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <View style={styles.description}>
+        <Text>Search for your favorite houses!!</Text>
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  description: {
+    fontSize: 18,
+    textAlign: 'center',
+    color: '#656565',
+    marginTop: 65,
+  },
+});
